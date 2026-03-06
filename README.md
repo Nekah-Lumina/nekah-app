@@ -206,91 +206,104 @@ The project focuses on building scalable digital infrastructure capable of suppo
 
 ## Platform Preview
 
-The screenshots below demonstrate key modules of the **NEKAH maternal and infant health platform**, including ECIS emergency intelligence features, maternal health monitoring tools, and infant development support systems.
+The screenshots below demonstrate key modules of the **NEKAH maternal and infant health platform**, including ECIS emergency intelligence features, maternal monitoring tools, and infant development support.
 
 ---
 
 ### Welcome Interface
 
-![Welcome Screen](docs/screenshots/IMG_5069.jpeg)
-
-![Welcome Interface](docs/screenshots/IMG_5086.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5069.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5086.jpeg" width="45%">
+</p>
 
 ---
 
 ### Baby Development & GlowTalk
 
-![Baby Development](docs/screenshots/IMG_5126.jpeg)
-
-![GlowTalk Interface](docs/screenshots/IMG_5127.jpeg)
-
----
-
-### Community Sharing & BumpCheck
-
-![Community Section](docs/screenshots/IMG_5117.jpeg)
-
-![BumpCheck Scan](docs/screenshots/IMG_5087.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5126.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5127.jpeg" width="45%">
+</p>
 
 ---
 
-### AI Analysis of BumpCheck Scan
+### Community & BumpCheck
 
-![AI Scan Analysis](docs/screenshots/IMG_5099.jpeg)
-
-![Risk Interpretation](docs/screenshots/IMG_5088.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5117.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5087.jpeg" width="45%">
+</p>
 
 ---
 
-### Cravings Analyzer & Recommendations
+### BumpCheck AI Analysis
 
-![Cravings Analyzer](docs/screenshots/IMG_5107.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5099.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5088.jpeg" width="45%">
+</p>
 
-![Professional Recommendations](docs/screenshots/IMG_5100.jpeg)
+---
+
+### Cravings Analyzer
+
+<p align="center">
+<img src="docs/screenshots/IMG_5107.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5100.jpeg" width="45%">
+</p>
 
 ---
 
 ### Health Journal & DoctorEye
 
-![Health Journal Entry](docs/screenshots/IMG_5105.jpeg)
-
-![DoctorEye Analysis](docs/screenshots/IMG_5091.jpeg)
-
----
-
-### Doctor Directory & ECIS System
-
-![Available Doctors](docs/screenshots/IMG_5092.jpeg)
-
-![Emergency Care Intelligence System](docs/screenshots/IMG_5102.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5105.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5091.jpeg" width="45%">
+</p>
 
 ---
 
-### Healthcare Routing & Emergency Notification
+### Doctors & ECIS Intelligence
 
-![Nearby Medical Facilities](docs/screenshots/IMG_5103.jpeg)
-
-![ECIS Medical Notification](docs/screenshots/IMG_5123.jpeg)
-
----
-
-### Wellness Challenges & Progress Tracking
-
-![Wellness Challenges](docs/screenshots/IMG_5110.jpeg)
-
-![Live Progress Tracking](docs/screenshots/IMG_5111.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5092.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5102.jpeg" width="45%">
+</p>
 
 ---
 
-### Wellness Progress Features
+### Healthcare Routing
 
-![Live Progress Monitoring](docs/screenshots/IMG_5112.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5103.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5123.jpeg" width="45%">
+</p>
+
+---
+
+### Wellness Challenges
+
+<p align="center">
+<img src="docs/screenshots/IMG_5110.jpeg" width="45%">
+<img src="docs/screenshots/IMG_5111.jpeg" width="45%">
+</p>
+
+---
+
+### Progress Tracking
+
+<p align="center">
+<img src="docs/screenshots/IMG_5112.jpeg" width="45%">
+</p>
 
 ---
 
 ### Educational Content
 
-![Articles and Videos](docs/screenshots/IMG_5115.jpeg)
+<p align="center">
+<img src="docs/screenshots/IMG_5115.jpeg" width="45%">
+</p>
 
 ---
 
