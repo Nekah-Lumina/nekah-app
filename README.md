@@ -108,6 +108,35 @@ flowchart LR
 
 ---
 
+## NEKAH Ecosystem Overview
+
+The NEKAH platform connects mothers, healthcare providers, and intelligent monitoring systems to create a coordinated maternal and infant healthcare ecosystem.
+
+```mermaid
+flowchart LR
+
+A[Mother Using NEKAH App] --> B[NEKAH Platform Interface]
+
+B --> C[ECIS Emergency Care Intelligence System]
+
+C --> D[BumpCheck AI Health Scan]
+C --> E[GlowTalk Emotional Support]
+C --> F[Voice Symptom Logger]
+C --> G[DoctorEye Visual Health Analysis]
+
+C --> H[Healthcare Routing System]
+
+H --> I[Nearby Clinics and Hospitals]
+
+I --> J[Healthcare Providers]
+
+J --> K[BirthLedger Verification System]
+
+K --> L[Blockchain Health Event Registry]
+```
+
+---
+
 ## Relationship to BirthLedger
 
 NEKAH is designed to integrate with **BirthLedger**, a blockchain-based maternal and child health event verification system.
