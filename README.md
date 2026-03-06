@@ -91,9 +91,6 @@ flowchart LR
     E --> G[Nearest Clinic or Care Facility]
     G --> H[Medical Intervention]
     ```
-
----
-
 # System Architecture
 
 The NEKAH platform combines mobile interfaces, backend processing, secure storage, and (optionally) verification infrastructure for key maternal and child health events.
