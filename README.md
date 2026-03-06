@@ -204,6 +204,37 @@ The project focuses on building scalable digital infrastructure capable of suppo
 
 ---
 
+## Platform Preview
+
+![Home](docs/screenshots/home.jpeg)
+![BumpCheck](docs/screenshots/bumpcheck.jpeg)
+![Baby Tracker](docs/screenshots/babytracker.jpeg)
+
+---
+
+## How NEKAH Works
+
+1. A mother reports symptoms or health concerns through the NEKAH platform.
+
+2. The Emergency Care Intelligence System (ECIS) analyzes maternal health signals and evaluates potential risk.
+
+3. If risk indicators are detected, the system alerts healthcare providers or recommends appropriate care pathways.
+
+4. Healthcare events such as births, antenatal visits, and vaccinations can optionally be verified using the BirthLedger blockchain system.
+
+---
+
+## Demonstration
+
+The current prototype demonstrates:
+
+• ECIS symptom analysis workflow  
+• maternal health monitoring tools  
+• infant development tracking modules  
+• blockchain-based verification prototype (BirthLedger)
+
+---
+
 ## Organization
 
 Developed by: **NekahLumina Ventures**
