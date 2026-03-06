@@ -212,7 +212,7 @@ The screenshots below demonstrate key modules of the **NEKAH maternal and infant
 
 ### Welcome Interface
 
-![Welcome Screen](docs/screenshots/IMG_5069.png)
+![Welcome Screen](docs/screenshots/IMG_5069.jpeg)
 
 ![Welcome Interface](docs/screenshots/IMG_5086.jpeg)
 
