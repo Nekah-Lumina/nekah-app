@@ -1,66 +1,80 @@
 # NEKAH
+
 NEKAH is an AI-powered maternal and infant health platform designed to improve early risk detection, healthcare access, and continuity of care for mothers and children.
-Developed by NekahLumina Ventures, NEKAH combines intelligent health monitoring tools, maternal support systems, and emergency response infrastructure to strengthen maternal and child healthcare systems, particularly in low-resource environments.
+
+Developed by **NekahLumina Ventures**, NEKAH combines intelligent health monitoring tools, maternal support systems, and emergency response infrastructure to strengthen maternal and child healthcare systems, particularly in low-resource environments.
+
 The platform is built around a core intelligence system called **ECIS — Emergency Care Intelligence System**, which analyzes maternal health signals and helps identify potential emergencies early.
 
 ---
 
-# The Problem
+## The Problem
+
 Maternal and infant healthcare systems in many regions face major structural challenges:
-• fragmented or paper-based health records  
-• delayed detection of pregnancy complications  
-• limited access to healthcare professionals  
-• poor continuity of care between clinics  
-• lost or incomplete birth and vaccination records  
-These gaps contribute to preventable maternal deaths and poor infant health outcomes.
-Technology can help bridge these gaps by providing intelligent monitoring systems and reliable digital health infrastructure.
+
+- Fragmented or paper-based health records  
+- Delayed detection of pregnancy complications  
+- Limited access to healthcare professionals  
+- Poor continuity of care between clinics  
+- Lost or incomplete birth and vaccination records  
+
+These gaps contribute to preventable maternal deaths and poor infant health outcomes. Technology can help bridge these gaps by providing intelligent monitoring systems and reliable digital health infrastructure.
 
 ---
 
-# The Solution
+## The Solution
+
 NEKAH provides an integrated maternal and infant health platform that combines:
-• AI-assisted maternal health monitoring  
-• emergency risk detection systems  
-• infant development tracking  
-• digital health record continuity  
-• healthcare system integration  
+
+- AI-assisted maternal health monitoring  
+- Emergency risk detection systems  
+- Infant development tracking  
+- Digital health record continuity  
+- Healthcare system integration  
+
 The platform helps mothers monitor their health while providing healthcare systems with tools to detect risks earlier and respond faster.
+
 At the center of this platform is the **Emergency Care Intelligence System (ECIS).**
 
 ---
 
-# Emergency Care Intelligence System (ECIS)
+## Emergency Care Intelligence System (ECIS)
+
 The **Emergency Care Intelligence System (ECIS)** is the core intelligence layer of the NEKAH platform.
+
 ECIS analyzes maternal health signals in real time and helps detect potential maternal health emergencies before they escalate.
+
 The system combines:
-• symptom reporting  
-• AI-assisted health risk analysis  
-• maternal health monitoring tools  
-• healthcare routing support  
+
+- Symptom reporting  
+- AI-assisted health risk analysis  
+- Maternal health monitoring tools  
+- Healthcare routing support  
+
 ECIS can help support healthcare systems by:
-• identifying potential maternal emergencies early  
-• guiding mothers toward appropriate medical care  
-• assisting healthcare providers with risk alerts  
-• improving response time for urgent maternal conditions  
+
+- Identifying potential maternal emergencies early  
+- Guiding mothers toward appropriate medical care  
+- Assisting healthcare providers with risk alerts  
+- Improving response time for urgent maternal conditions  
+
 In environments where delays in care can be fatal, early detection and intelligent routing can play a critical role in saving lives.
+
 ECIS acts as the **decision-support engine powering the NEKAH maternal health ecosystem.**
 
 ---
 
-# Platform Components
+## Platform Components
 
 While ECIS forms the core intelligence layer, NEKAH includes multiple modules that support maternal and infant healthcare.
 
 ### Emergency Care Intelligence System (ECIS)
-
 Core system responsible for analyzing maternal health signals and detecting potential emergencies.
 
 ### BumpCheck
-
 AI-assisted maternal symptom monitoring tool that feeds health data into ECIS for risk evaluation.
 
 ### GlowTalk
-
 Emotionally intelligent maternal wellness support designed to encourage mothers to communicate symptoms and concerns.
 
 ### Baby Tracker
@@ -77,7 +91,7 @@ Allows mothers to log symptoms using voice input, making health tracking easier 
 
 ---
 
-# ECIS System Flow
+## ECIS System Flow
 
 The Emergency Care Intelligence System works by continuously analyzing maternal health signals and triggering appropriate responses when risk indicators appear.
 
@@ -90,47 +104,40 @@ flowchart LR
     D -->|No| F[Continue Monitoring]
     E --> G[Nearest Clinic or Care Facility]
     G --> H[Medical Intervention]
-    ```
+```
 
 ---
 
-# System Architecture
+## Relationship to BirthLedger
 
-The NEKAH platform combines mobile interfaces, backend processing, secure storage, and (optionally) verification infrastructure for key maternal and child health events.
-
-```mermaid
-flowchart LR
-    A[Mother or Health Worker] --> B[NEKAH Platform (App/Web)]
-    B --> C[ECIS Intelligence Layer]
-    C --> D[Health Data Processing Layer]
-    D --> E[Secure Off-Chain Health Data Storage]
-    C --> F[Provider Alerts & Care Routing]
-    F --> G[Clinic / Care Facility]
-    ```
-
----
-
-# Relationship to BirthLedger
-
-NEKAH is designed to integrate with BirthLedger, a blockchain-based maternal and child health event verification system.
+NEKAH is designed to integrate with **BirthLedger**, a blockchain-based maternal and child health event verification system.
 
 BirthLedger provides tamper-resistant verification for important healthcare events such as:
-	•	Birth registrations
-	•	Antenatal care visits
-	•	Vaccination records
 
-In this ecosystem:
-	•	NEKAH is the user-facing maternal and infant health platform
-	•	ECIS is the emergency detection and decision-support engine
-	•	BirthLedger is the blockchain verification infrastructure for key events
+- Birth registrations  
+- Antenatal care visits  
+- Vaccination records  
 
-BirthLedger repository:
+Within the broader ecosystem:
+
+- **NEKAH** is the user-facing maternal and infant health platform  
+- **ECIS** is the emergency detection and decision-support intelligence layer  
+- **BirthLedger** is the blockchain verification infrastructure for key health events  
+
+This architecture allows maternal and child health systems to combine **intelligent risk detection with verifiable healthcare records**.
+
+BirthLedger repository:  
 https://github.com/Nekah-Lumina/birthledger-mvp
 
 ---
 
-# BirthLedger Verification Architecture
+## BirthLedger Verification Architecture
+
 BirthLedger records verification proofs for key maternal and child health events while keeping sensitive health data securely stored off-chain.
+
+Instead of storing private medical information directly on the blockchain, the system records **verification hashes and event proofs**, while the detailed health records remain in secure databases.
+
+```mermaid
 flowchart LR
     A[Clinic or Health Worker] --> B[BirthLedger Smart Contract]
     B --> C[Blockchain Ledger]
@@ -138,54 +145,75 @@ flowchart LR
     C --> E[Verification Layer]
     D --> E
     E --> F[Authorized Health Systems]
+```
+
+This architecture ensures that health systems can verify important events such as birth registration or vaccination history while protecting patient privacy.
 
 ---
 
-# Potential Impact for Children
+## Potential Impact for Children
 
 By strengthening maternal health monitoring and healthcare coordination, NEKAH has the potential to contribute to:
-	•	Earlier detection of maternal health risks
-	•	Improved monitoring of infant development
-	•	Reduced loss of birth and vaccination records
-	•	Improved continuity of maternal care across clinics
-	•	Stronger maternal and child healthcare data systems
+
+- Earlier detection of maternal health risks  
+- Improved monitoring of infant development  
+- Reduced loss of birth and vaccination records  
+- Improved continuity of maternal care across clinics  
+- Stronger maternal and child healthcare data systems  
 
 These improvements can support healthier pregnancies, safer births, and better long-term outcomes for children.
 
 ---
 
-# Alignment with Global Health Goals
+## Alignment with Global Health Goals
 
 NEKAH supports international public health priorities including:
 
-UN Sustainable Development Goal 3 – Good Health and Well-Being
+**United Nations Sustainable Development Goal 3 — Good Health and Well-Being**
 
-Specifically contributing to efforts aimed at reducing maternal mortality and improving child health outcomes.
+The platform specifically aligns with global efforts aimed at:
 
----
-
-# Technology Stack
-	•	TypeScript
-	•	React
-	•	Vite
-	•	TailwindCSS
-	•	AI-assisted health monitoring modules
+- Reducing maternal mortality  
+- Improving newborn health outcomes  
+- Strengthening maternal and child healthcare systems  
+- Improving access to reliable health records  
 
 ---
 
-# Project Status
+## Technology Stack
 
-NEKAH is currently under active development as part of the broader maternal health technology ecosystem developed by NekahLumina Ventures.
+The NEKAH platform is built using modern web technologies and intelligent data processing systems.
+
+Key technologies include:
+
+- TypeScript  
+- React  
+- Vite  
+- TailwindCSS  
+- AI-assisted health monitoring modules  
+
+Future integrations may include healthcare interoperability systems and blockchain verification infrastructure.
 
 ---
 
-# Organization
+## Project Status
 
-Developed by: NekahLumina Ventures
-Founder: Francisca-Gina Anurika Umoh
+NEKAH is currently under active development as part of the broader maternal health technology ecosystem developed by **NekahLumina Ventures**.
 
-⸻
+The project focuses on building scalable digital infrastructure capable of supporting maternal and child healthcare systems across diverse environments.
+
+---
+
+## Organization
+
+Developed by: **NekahLumina Ventures**
+
+Founder: **Francisca-Gina Anurika Umoh**
+
+---
 
 ## Vision
 
-NEKAH aims to build a digital infrastructure where every mother has access to intelligent health monitoring, and every child begins life with a secure and trusted health record.
+NEKAH aims to build a digital infrastructure where every mother has access to intelligent health monitoring and every child begins life with a secure and trusted health record.
+
+By combining maternal health intelligence systems, digital health platforms, and verification infrastructure, NEKAH seeks to strengthen maternal and child healthcare systems and improve health outcomes globally.
