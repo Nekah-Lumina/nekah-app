@@ -91,3 +91,95 @@ flowchart LR
     E --> G[Nearest Clinic or Care Facility]
     G --> H[Medical Intervention]
     ```
+
+---
+
+# System Architecture
+
+The NEKAH platform combines mobile interfaces, backend processing, secure storage, and (optionally) verification infrastructure for key maternal and child health events.
+
+```mermaid
+flowchart LR
+    A[Mother or Health Worker] --> B[NEKAH Platform (App/Web)]
+    B --> C[ECIS Intelligence Layer]
+    C --> D[Health Data Processing Layer]
+    D --> E[Secure Off-Chain Health Data Storage]
+    C --> F[Provider Alerts & Care Routing]
+    F --> G[Clinic / Care Facility]
+    ```
+
+    ## Relationship to BirthLedger
+
+NEKAH is designed to integrate with BirthLedger, a blockchain-based maternal and child health event verification system.
+
+BirthLedger provides tamper-resistant verification for important healthcare events such as:
+	•	Birth registrations
+	•	Antenatal care visits
+	•	Vaccination records
+
+In this ecosystem:
+	•	NEKAH is the user-facing maternal and infant health platform
+	•	ECIS is the emergency detection and decision-support engine
+	•	BirthLedger is the blockchain verification infrastructure for key events
+
+BirthLedger repository:
+https://github.com/Nekah-Lumina/birthledger-mvp
+
+## BirthLedger Verification Architecture
+BirthLedger records verification proofs for key maternal and child health events while keeping sensitive health data securely stored off-chain.
+flowchart LR
+    A[Clinic or Health Worker] --> B[BirthLedger Smart Contract]
+    B --> C[Blockchain Ledger]
+    A --> D[Off-Chain Health Records Database]
+    C --> E[Verification Layer]
+    D --> E
+    E --> F[Authorized Health Systems]
+
+    ##Potential Impact for Children
+
+By strengthening maternal health monitoring and healthcare coordination, NEKAH has the potential to contribute to:
+	•	Earlier detection of maternal health risks
+	•	Improved monitoring of infant development
+	•	Reduced loss of birth and vaccination records
+	•	Improved continuity of maternal care across clinics
+	•	Stronger maternal and child healthcare data systems
+
+These improvements can support healthier pregnancies, safer births, and better long-term outcomes for children.
+
+⸻
+
+## Alignment with Global Health Goals
+
+NEKAH supports international public health priorities including:
+
+UN Sustainable Development Goal 3 – Good Health and Well-Being
+
+Specifically contributing to efforts aimed at reducing maternal mortality and improving child health outcomes.
+
+⸻
+
+## Technology Stack
+	•	TypeScript
+	•	React
+	•	Vite
+	•	TailwindCSS
+	•	AI-assisted health monitoring modules
+
+⸻
+
+## Project Status
+
+NEKAH is currently under active development as part of the broader maternal health technology ecosystem developed by NekahLumina Ventures.
+
+⸻
+
+## Organization
+
+Developed by: NekahLumina Ventures
+Founder: Francisca-Gina Anurika Umoh
+
+⸻
+
+## Vision
+
+NEKAH aims to build a digital infrastructure where every mother has access to intelligent health monitoring, and every child begins life with a secure and trusted health record.
