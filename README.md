@@ -92,6 +92,8 @@ flowchart LR
     G --> H[Medical Intervention]
     ```
 
+---
+
 # System Architecture
 
 The NEKAH platform combines mobile interfaces, backend processing, secure storage, and (optionally) verification infrastructure for key maternal and child health events.
@@ -106,7 +108,9 @@ flowchart LR
     F --> G[Clinic / Care Facility]
     ```
 
-    ## Relationship to BirthLedger
+---
+
+# Relationship to BirthLedger
 
 NEKAH is designed to integrate with BirthLedger, a blockchain-based maternal and child health event verification system.
 
@@ -123,7 +127,9 @@ In this ecosystem:
 BirthLedger repository:
 https://github.com/Nekah-Lumina/birthledger-mvp
 
-## BirthLedger Verification Architecture
+---
+
+# BirthLedger Verification Architecture
 BirthLedger records verification proofs for key maternal and child health events while keeping sensitive health data securely stored off-chain.
 flowchart LR
     A[Clinic or Health Worker] --> B[BirthLedger Smart Contract]
@@ -133,7 +139,9 @@ flowchart LR
     D --> E
     E --> F[Authorized Health Systems]
 
-    ##Potential Impact for Children
+---
+
+# Potential Impact for Children
 
 By strengthening maternal health monitoring and healthcare coordination, NEKAH has the potential to contribute to:
 	•	Earlier detection of maternal health risks
@@ -144,9 +152,9 @@ By strengthening maternal health monitoring and healthcare coordination, NEKAH h
 
 These improvements can support healthier pregnancies, safer births, and better long-term outcomes for children.
 
-⸻
+---
 
-## Alignment with Global Health Goals
+# Alignment with Global Health Goals
 
 NEKAH supports international public health priorities including:
 
@@ -154,24 +162,24 @@ UN Sustainable Development Goal 3 – Good Health and Well-Being
 
 Specifically contributing to efforts aimed at reducing maternal mortality and improving child health outcomes.
 
-⸻
+---
 
-## Technology Stack
+# Technology Stack
 	•	TypeScript
 	•	React
 	•	Vite
 	•	TailwindCSS
 	•	AI-assisted health monitoring modules
 
-⸻
+---
 
-## Project Status
+# Project Status
 
 NEKAH is currently under active development as part of the broader maternal health technology ecosystem developed by NekahLumina Ventures.
 
-⸻
+---
 
-## Organization
+# Organization
 
 Developed by: NekahLumina Ventures
 Founder: Francisca-Gina Anurika Umoh
