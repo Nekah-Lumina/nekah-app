@@ -113,6 +113,8 @@ flowchart LR
     D -->|No| F[Continue Monitoring]
     E --> G[Nearest Clinic or Care Facility]
     G --> H[Medical Intervention]
+    ```
+
 ## System Vision
 
 NEKAH is designed to integrate with secure digital health infrastructure such as BirthLedger, a blockchain-based verification layer for maternal and child health events.
